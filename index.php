@@ -5,4 +5,6 @@
 	while($info = mysql_fetch_array($query)) {
 		echo "<br>" . $info['name'];	
 	}
+
+echo "done";
 ?>
